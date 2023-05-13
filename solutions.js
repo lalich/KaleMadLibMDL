@@ -106,28 +106,29 @@ person.forEach(name => {
 // }}}
 
 // RD II with help still not seeing it happen though as supposed to this week will be a very busy study week...
-// {
-// const bankInfo = {
-//     savings: 600,
-//     chekcing: 800,
-//     moneyMarket: 200,
-//     creditCard: -2000
-// };
-// function bankAccountSummary(bankInfo) {
-//     let total = 0;
-//     for (let key in bankInfo) {
-//         total += bankInfo[key];
-//     }
-//     return total;
-//     console.log(bankInfo)
+{
+const bankInfo = {
+    savings: 600,
+    chekcing: 800,
+    moneyMarket: 200,
+    creditCard: -2000
+};
+function bankAccountSummary(bankInfo) {
+    let total = 0;
+    for (let key in bankInfo) {
+        total += bankInfo[key];
+    }
+    return total;
     
-// }
-// const bankTotal = bankAccountSummary(bankInfo);
+}
+const bankTotal = bankAccountSummary(bankInfo);
 
-// function inTheRed(total) {
-//     return total <0;
-// }  console.log(inTheRed())
-// }
+function inTheRed(total) {
+    return total <0;
+}  
+console.log(bankAccountSummary(bankInfo))
+console.log(inTheRed(bankTotal))
+}
 
 
 //---------------// MAD LIBS //------------------/
